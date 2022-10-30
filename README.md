@@ -6,7 +6,7 @@ This repo contains the source code of *Programming the Finite Element Method Fif
 
 以编译链接运行本书第一个程序*p41.f03*为例
 
-1. 将[远程仓库]([wangyb19/Programming_Finite_Element_Method (github.com)](https://github.com/wangyb19/Programming_Finite_Element_Method))下载到本地：`git clone https://github.com/wangyb19/Programming_Finite_Element_Method`
+1. 将[远程仓库](https://github.com/wangyb19/Programming_Finite_Element_Method)下载到本地：`git clone https://github.com/wangyb19/Programming_Finite_Element_Method`
 
 2. 进入项目library文件夹 `cd ./Programming_Finite_Element_Method/library/ `
 3. 进入main文件夹 `cd main`/
@@ -29,5 +29,5 @@ This repo contains the source code of *Programming the Finite Element Method Fif
 
 5. 进入*p41.f03*所在文件夹: `cd ../../chap04`
 6. 对*p41.f03*编译链接生成可执行程序*p41*
-   * 'gfortran -o p41 p41.f03 arpacklib.a geomlib.a mainlib.a'
+   * `gfortran -o p41 p41.f03 arpacklib.a geomlib.a mainlib.a`
 7. 运行可执行程序并按照提示输入相关信息进行计算: `./p41`
