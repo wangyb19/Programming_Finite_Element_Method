@@ -3,3 +3,6 @@
 *.mod
 *.a
 *.res
+*.o
+*.bak
+*.dat
